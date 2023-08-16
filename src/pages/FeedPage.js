@@ -1,4 +1,8 @@
+import { useProtectedPage } from "../hooks/useProtecdPage";
+
 function FeedPage() {
+
+  useProtectedPage()
 
   return (
     <main>
